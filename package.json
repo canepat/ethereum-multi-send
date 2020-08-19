@@ -1,0 +1,27 @@
+{
+  "name": "ethereum-multi-send",
+  "version": "1.0.0",
+  "description": "One-time address multi-send on the Ethereum blockchain",
+  "main": "index.js",
+  "scripts": {
+    "multi-transfer-ether": "npx buidler run scripts/multi-transfer-ether.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "smart",
+    "contract"
+  ],
+  "author": "canepat",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.0.2",
+    "@nomiclabs/buidler-truffle5": "^1.0.2",
+    "@nomiclabs/buidler-web3": "^1.0.2",
+    "@openzeppelin/contracts": "^2.4.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^6.2.0",
+    "web3": "^1.2.4"
+  }
+}
